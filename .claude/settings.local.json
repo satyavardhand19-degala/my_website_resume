@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c \"import reportlab; print\\('reportlab ok'\\)\")",
+      "Bash(python -c \"import fpdf; print\\('fpdf ok'\\)\")",
+      "Bash(pip show *)",
+      "Bash(pip install *)",
+      "Bash(python -c \"import reportlab; print\\('reportlab installed ok'\\)\")",
+      "Bash(python -c \"import fpdf; print\\('fpdf2 ok'\\)\")",
+      "Bash(python generate_resume.py)",
+      "Bash(python -c ' *)",
+      "Bash(del generate_resume.py)"
+    ]
+  }
+}
